@@ -1,0 +1,9 @@
+<button class="btn btn-primary"
+(click)="onButtonToggle()">
+    Show Details
+</button>
+<div *ngIf="buttonToggle">
+    <p>{{ details }}</p>
+    <p *ngFor="let log of buttonLog" [ngClass]="{ over: log > 4}">{{ log }}</p>
+</div>
+
