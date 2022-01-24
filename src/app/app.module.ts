@@ -4,22 +4,22 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
-import { WarningAlertComponent } from './warning-alert/warning-alert.component';
-import { SuccessAlertComponent } from './success-alert/success-alert.component';
-import { BindingPracticeComponent } from './binding-practice/binding-practice.component';
-import { BindingPractice2Component } from './binding-practice2/binding-practice2.component';
+// import { ServerComponent } from './practice/server/server.component';
+// import { ServersComponent } from './practice/servers/servers.component';
+// import { WarningAlertComponent } from './practice/warning-alert/warning-alert.component';
+// import { SuccessAlertComponent } from './practice/success-alert/success-alert.component';
+// import { BindingPracticeComponent } from './practice/binding-practice/binding-practice.component';
+// import { BindingPractice2Component } from './practice/binding-practice2/binding-practice2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent,
-    WarningAlertComponent,
-    SuccessAlertComponent,
-    BindingPracticeComponent,
-    BindingPractice2Component
+    // ServerComponent,
+    // ServersComponent,
+    // WarningAlertComponent,
+    // SuccessAlertComponent,
+    // BindingPracticeComponent,
+    // BindingPractice2Component
   ],
   imports: [
     BrowserModule,
